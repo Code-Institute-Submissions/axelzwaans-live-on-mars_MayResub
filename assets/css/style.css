@@ -16,9 +16,65 @@ body {
 h1, h2 {
     font-family: Jura, sans-serif;
     letter-spacing: 20px;
-    color: #161c18;
+    color: #000000;
 }
 
 #logo {
-    font-size: 300%;
+    font-size: 500%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*navigation links */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 20px;
+    overflow: hidden;
+    display: inline-block;
+    display: table; 
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+}
+
+.active {
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    margin: auto;
 }
