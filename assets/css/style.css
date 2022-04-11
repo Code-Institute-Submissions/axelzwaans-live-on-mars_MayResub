@@ -81,14 +81,24 @@ a:hover {
     margin-top: 200px;
     margin-left: 50px;
     padding: 20px;
-
     width: 60%;
     height: 30%;
-
     background-color: rgba(237, 242, 239, .6);
 
 }
 
 #cover-text h2 {
     font-size: 200%;
+}
+
+/* reasons to join */
+
+#reasons {
+    height: 600px;
+}
+
+#reasons-why {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
 }
