@@ -8,7 +8,7 @@
 
 body {
     font-family: Abel, sans-serif;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 /* headings and logo */
@@ -24,6 +24,7 @@ h1, h2 {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    padding: 10px 0px;
 }
 
 /*navigation links */
@@ -31,33 +32,25 @@ h1, h2 {
 #menu {
     font-size: 150%;
     letter-spacing: 20px;
-    overflow: hidden;
-    display: inline-block;
-    display: table; 
+    display: table;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px;
+    list-style-type: none;
 }
 
-li {
+#menu li {
     float: left;
 }
 
 li a {
     display: block;
     text-align: center;
-}
-
-#menu li {
-    list-style-type: none;
-    margin-right: 50px;
-}
-
-#menu a {
+    padding: 0px 50px;
     text-decoration: none;
     color: #ffffff
 }
 
-#menu a:hover {
+a:hover {
     border-bottom: 2px solid #ffffff;
     border-top: 2px solid #ffffff;
 }
@@ -74,7 +67,7 @@ li a {
     width: 100%;
     background: url(../images/hero\ image.jpg);
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
     background-size: cover;
     margin: auto;
 }
