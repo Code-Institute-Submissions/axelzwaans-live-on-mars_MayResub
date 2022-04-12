@@ -93,12 +93,59 @@ a:hover {
 
 /* reasons to join */
 
-#reasons {
-    height: 600px;
+#reasons-section {
+    height: 300px;
+    width: 33%;
+    float: left;
+    
+    padding-top: 60px;
 }
 
-#reasons-why {
+#reasons-div{
     padding-top: 30px;
-    width: 50%;
-    float: left;
+    text-align: left;
+    padding-left: 50px;
+    font-size: x-large;
 }
+
+/*center image*/
+
+#center-image-section {
+    display: inline-block;
+    height: 300px;
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#center-image-div {
+    background: url(../images/rocket\ image\ 2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* launch info */
+
+#launch-info-section {
+    height: 300px;
+    width: 33%;
+    float: right;
+    background-color: red;
+    padding-top: 60px;
+}
+
+#launch-info-div {
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 50px;
+    font-size: x-large;
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
