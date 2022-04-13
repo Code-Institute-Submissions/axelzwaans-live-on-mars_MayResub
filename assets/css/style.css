@@ -84,64 +84,40 @@ a:hover {
     width: 60%;
     height: 30%;
     background-color: rgba(237, 242, 239, .6);
-
 }
 
 #cover-text h2 {
     font-size: 200%;
 }
 
-/* reasons to join */
+/* reasons image info */
 
-#reasons-section {
-    height: 300px;
+#reasons-image-info {
+    height: 600px;
+}
+
+#left-reasons {
+    padding-top: 120px;
+    padding-left: 30px;
     width: 33%;
     float: left;
-    
-    padding-top: 60px;
+    font-size: large;
 }
 
-#reasons-div{
-    padding-top: 30px;
-    text-align: left;
-    padding-left: 50px;
-    font-size: x-large;
-}
-
-/*center image*/
-
-#center-image-section {
-    display: inline-block;
-    height: 300px;
-    width: 33%;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-#center-image-div {
-    background: url(../images/rocket\ image\ 2.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no repeat;
-    height: 100%;
-    border-radius: 50%;
-}
-
-/* launch info */
-
-#launch-info-section {
-    height: 300px;
+#right-launch-info {
+    padding-top: 120px;
+    padding-right: 30px;
     width: 33%;
     float: right;
-    background-color: red;
-    padding-top: 60px;
+    font-size: large;
+    text-align: right;
 }
 
-#launch-info-div {
-    padding-top: 30px;
-    text-align: left;
-    padding-left: 50px;
-    font-size: x-large;
+table, tr, th, td {
+    margin-left: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
 }
 
 ol li {
@@ -149,3 +125,29 @@ ol li {
     list-style-position: inside;
 }
 
+#center-image {
+    padding-top: 40px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#center-container {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #031f0b;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#center-cover-bg {
+    background: url(../images/Rocket.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.section-heading {
+   
+}
