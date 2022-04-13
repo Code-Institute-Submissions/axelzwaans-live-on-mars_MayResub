@@ -39,7 +39,7 @@
 <section id="reasons-image-info">
 
     <div id="left-reasons">
-        <h2 class="section-heading">3 reasons why this is a good idea</h2>
+        <h2 class="section-heading">Reasons to join <i class="fa-solid fa-user-astronaut"></i></h2>
             <br>
             <ol>
                 <li>Explore space and it's stars and planets</li>
@@ -49,9 +49,9 @@
     </div>
 
     <div id="right-launch-info">
-        <h2 class="section-heading">Launch information</h2>
+        <h2 class="section-heading">Launch information <i class="fa-solid fa-shuttle-space"></i></h2>
         <br>
-        <table id="info-table">
+        <table>
             <tr>
                 <th>Date</th>
                 <th>Time</th>
@@ -82,12 +82,27 @@
     </div>
 </section>
 
-    <section>
-        Sign up
-    </section>
-    <footer>
-        Contact information
-    </footer>
+<section>
+    <section class="contact-section">
+        <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Join us</h2>
+            <br>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <input class="join-button" type="submit" value="Make contact"/>
+            </form>
+</section>
+
+<footer>
+    Contact information
+</footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/110268e8d3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
