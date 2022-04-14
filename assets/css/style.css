@@ -218,8 +218,26 @@ ol li {
 
 footer {
     height: 150px;
+    background-color: #808080;
+    position: relative;
 }
 
 .social-networks {
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-networks > li {
+    display: inline-block
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 5%;
+}
+
+#address {
+    text-align: right;
 }
