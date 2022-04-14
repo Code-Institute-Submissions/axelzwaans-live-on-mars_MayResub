@@ -90,7 +90,7 @@ a:hover {
     font-size: 200%;
 }
 
-/* reasons image info */
+/* reasons to join */
 
 #reasons-image-info {
     height: 400px;
@@ -105,6 +105,8 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
 }
+
+/* launch info */
 
 #right-launch-info {
     padding-right: 70px;
@@ -128,6 +130,8 @@ ol li {
     list-style: decimal;
     list-style-position: inside;
 }
+
+/* center image */
 
 #center-image {
     padding-top: 40px;
@@ -159,7 +163,6 @@ ol li {
 /* Form */
 
 .contact-section {
-    background: url(../images/Contact.png);
     background-size: cover;
     background-position: center;
     opacity: 0.8;
@@ -168,22 +171,22 @@ ol li {
 }
 
 .contact-form {
+    background: url(../images/Contact.png) no-repeat center center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     padding: 20px;
-    margin-right: 70px;
     width: 33%;
-    float: right;
     font-size: large;
-    text-align: left;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 300px;
-    background-color: rgba(237, 242, 239, .2);
+    max-width: 1000px;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
+    color: #031f0b;
     width: 100%;
     height: 25px;
     margin: 5px 0 10px 0;
@@ -195,7 +198,7 @@ ol li {
     border-color: #031f0b;
 }
 
-.join-button {
+.make-contact {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -206,7 +209,17 @@ ol li {
     display: block;
 }
 
-.join-button:hover {
+.make-contact:hover {
     background-color: #fafafa;
     color: #031f0b;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
 }
