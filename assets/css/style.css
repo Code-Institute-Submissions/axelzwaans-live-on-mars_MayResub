@@ -115,7 +115,7 @@ ol li {
     width: 33%;
     float: right;
     font-size: large;
-    text-align: right;
+    text-align: left;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -123,9 +123,7 @@ ol li {
 
 table {
     margin-left: auto;
-    border: 1px solid;
     border-collapse: collapse;
-    padding: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.20);
 }
 
@@ -150,12 +148,6 @@ table tbody tr:nth-of-type(even) {
 table tbody tr:last-of-type {
     border-bottom: 1px solid #808080;
 }
-
-.table tbody tr.active-row {
-    font-weight: bold;
-    color: #808080;
-}
-
 
 /* center image */
 
@@ -182,8 +174,13 @@ table tbody tr:last-of-type {
     border-radius: 50%;
 }
 
-.section-heading {
+.section-heading-reasons {
     border-bottom: 2px solid #031f0b;
+}
+
+.section-heading-info {
+    border-bottom: 2px solid #031f0b;
+    text-align: right;
 }
 
 /* Form */
