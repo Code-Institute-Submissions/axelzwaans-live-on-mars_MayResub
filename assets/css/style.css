@@ -67,27 +67,20 @@ a:hover {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero\ image\ 2.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
+    background: url(../images/hero.png) no-repeat center center;
     background-size: cover;
     margin: auto;
 }
 
 #cover-text {
-    color: #031f0b;
-    font-size: 200%;
+    color: #fafafa;
+    font-size: 250%;
     letter-spacing: 10px;
     margin-top: 200px;
     margin-left: 50px;
     padding: 20px;
     width: 60%;
-    height: 30%;
-    background-color: rgba(237, 242, 239, .6);
-}
-
-#cover-text h2 {
-    font-size: 200%;
+    background: transparent;
 }
 
 /* reasons to join */
@@ -100,10 +93,19 @@ a:hover {
     padding-left: 70px;
     width: 33%;
     float: left;
-    font-size: large;
+    font-size: 120%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+ol > li {
+    padding-bottom: 10px;
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
 }
 
 /* launch info */
@@ -119,17 +121,41 @@ a:hover {
     transform: translateY(-50%);
 }
 
-table, tr, th, td {
+table {
     margin-left: auto;
     border: 1px solid;
     border-collapse: collapse;
     padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.20);
 }
 
-ol li {
-    list-style: decimal;
-    list-style-position: inside;
+table thead tr {
+    background-color: #808080;
+    color: #ffffff;
+    text-align: left;
 }
+
+table th, table td {
+    padding: 10px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #808080;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #808080;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 1px solid #808080;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #808080;
+}
+
 
 /* center image */
 
@@ -163,33 +189,29 @@ ol li {
 /* Form */
 
 .contact-section {
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
     height: 600px;
     color: #fafafa;
 }
 
 .contact-form {
     background: url(../images/Contact.png) no-repeat center center;
+    background-size: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 20px;
-    width: 33%;
+    width: 50%;
     font-size: large;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 1000px;
 }
 
 .text-input {
     color: #031f0b;
     width: 100%;
     height: 25px;
-    margin: 5px 0 10px 0;
     border: 1px solid #ffffff;
     border-radius: 2px;
 }
@@ -239,5 +261,9 @@ footer {
 }
 
 #address {
+    color: #fafafa;
+    font-size: 120%;
     text-align: right;
+    transform: translateY(+50%);
+    padding-right: 40px;
 }
