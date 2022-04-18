@@ -42,7 +42,7 @@ h1 {
     padding: 20px 65px;
 }
 
-li a {
+nav a {
     display: block;
     text-align: center;
     padding: 0px 10px;
@@ -52,7 +52,7 @@ li a {
     text-indent: 10px;
 }
 
-a:hover {
+header a:hover {
     border: 1px solid #ffffff;
     margin: -1px;
 }
@@ -114,7 +114,7 @@ ol li {
     padding-right: 70px;
     width: 33%;
     float: right;
-    font-size: large;
+    font-size: 120%;
     text-align: left;
     position: relative;
     top: 50%;
@@ -196,8 +196,8 @@ table tbody tr:last-of-type {
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    padding: 60px;
-    width: 50%;
+    padding: 40px 100px;
+    width: 40%;
     font-size: large;
     position: relative;
     top: 50%;
@@ -206,12 +206,13 @@ table tbody tr:last-of-type {
 }
 
 .text-input {
-    color: #343d46;
+    box-sizing: border-box;
     width: 100%;
+    color: #343d46;
     height: 25px;
     border: 1px solid #343d46;
     border-radius: 4px;
-    padding-left: 10px;
+    padding-left: 2px;
 }
 
 .text-input:hover {
@@ -221,9 +222,9 @@ table tbody tr:last-of-type {
 .make-contact {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: right;
-    font-size: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 120%;
     background-color: #343d46;
     color: #fafafa;
     display: block;
@@ -246,21 +247,24 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    text-align: center;
 }
 
 .social-networks > li {
-    display: inline-block
+    display: inline-block;
+    padding: 20px;
 }
 
 .social-networks i {
-    font-size: 200%;
-    margin: 2%;
-    padding: 5%;
+    font-size: 300%;
+    color: #fafafa;
 }
 
-#address {
+.address {
     color: #fafafa;
     font-size: 120%;
+    float: right;
+    list-style: none;
     text-align: right;
     transform: translateY(+50%);
     padding-right: 40px;
