@@ -70,6 +70,7 @@ header a:hover {
     background: url(../images/hero.png) no-repeat center center;
     background-size: cover;
     margin: auto;
+    position: relative;
 }
 
 #cover-text {
@@ -81,6 +82,7 @@ header a:hover {
     margin-left: 50px;
     width: 60%;
     background: transparent;
+    position: absolute;
 }
 
 /* reasons to join */
@@ -289,12 +291,63 @@ footer {
 
 .footer-center {
     font-size: 120%;
-    color: #fafafa;
+    color: #ffffff;
     left: 0;
     right: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
+.address a:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.address a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.address a:hover {
+    color: #228c22;
+    text-decoration: underline;
+  }
+
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1400px) {
+    #reasons-image-info {
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+        }
+
+    #left-reasons, #right-launch-info {
+        width: 100%;
+        float: left;
+        padding: 40px 0;
+        }
+
+    #center-image {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #cover-text {
+        font-size: 150%;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 auto;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen
