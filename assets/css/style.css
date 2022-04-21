@@ -322,22 +322,6 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1400px) {
-    #reasons-image-info {
-        width: 90%;
-        height: 1000px;
-        margin: 0 auto;
-        }
-
-    #left-reasons, #right-launch-info {
-        width: 100%;
-        float: left;
-        padding: 40px 0;
-        }
-
-    #center-image {
-        width: 100%;
-        padding: 20px 0;
-    }
 
     #cover-text {
         font-size: 150%;
@@ -347,13 +331,60 @@ footer {
         transform: translateY(-50%);
         margin: 0 auto;
     }
+
+    #reasons-image-info {
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
+        }
+
+    #left-reasons, #right-launch-info {
+        width: 100%;
+        padding: 40px 0;
+        }
+
+    #center-image {
+        width: 100%;
+        padding: 20px 0;
+        margin: 50px 0;
+    }
+
+    .contact-section {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .contact-form {
+        width: 65%;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    #logo {
+        font-size: 300%;
+    }
+
     #menu li {
         float: left;
         padding: 20px 20px;
+    }
+
+    #reasons-image-info {
+        height: 900px;
+    }
+
+    #center-image {
+        margin: 0 auto;
+    }
+
+    .contact-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        width:65%
     }
 }
