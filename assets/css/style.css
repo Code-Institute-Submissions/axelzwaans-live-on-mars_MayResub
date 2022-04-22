@@ -8,12 +8,11 @@
 
 body {
     font-family: Abel, sans-serif;
-    font-weight: 300;
 }
 
 /* headings and logo */
 
-header > h1 {
+header > #logo {
     font-family: Jura, sans-serif;
     letter-spacing: 20px;
     color: #343d46;
@@ -22,11 +21,21 @@ header > h1 {
 
 #logo {
     font-size: 500%;
-    text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 0px;
 }
+
+a > #logo {
+    font-family: Jura, sans-serif;
+    letter-spacing: 20px;
+    color: #343d46;
+    text-indent: 25px;
+}
+
+a:link {
+    text-decoration: none;
+  }
 
 /*navigation links */
 
@@ -53,7 +62,7 @@ nav a {
     text-indent: 10px;
 }
 
-header a:hover {
+nav a:hover {
     border: 1px solid #ffffff;
     margin: -1px;
 }
@@ -189,7 +198,7 @@ form h2 {
 
 .contact-section {
     height: 300px;
-    margin: 100px 300px;
+    margin: 100px 400px;
     display: block;
     position: relative;
     padding: 10px 0px;
@@ -227,6 +236,7 @@ form h2 {
     border: 1px solid #343d46;
     border-radius: 4px;
     padding-left: 2px;
+    font-size: 100%
 }
 
 .text-input:hover {
