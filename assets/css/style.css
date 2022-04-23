@@ -395,5 +395,20 @@ footer {
     .social-networks > li {
         padding: 10px;
     }
+
+    #gallery {
+        column-count: 2;
+    }
 }
 
+/* gallery */
+
+#gallery {
+    column-count: 4;
+    column-gap: 4px;
+    margin: 0 4px;
+}
+
+#gallery > img {
+    width: 100%;
+}
