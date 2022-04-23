@@ -391,7 +391,7 @@ footer {
 
     nav a:hover {
         border: none;
-        margin: -1px;
+        margin: 0 auto;
     }
 
     #cover-text {
