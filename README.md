@@ -1,9 +1,43 @@
 # Live on Mars
-Live on Mars is a simple website designed to inspire those who wish to leave this earth and live on mars. The site includes information about the Live on Mars space program, with clear objectives and launch dates. For those who wish to come on the mission, there is a sign up form. The site also includes contact details and a gallery with images of previous missions.
-
-<br>
+Live on Mars is a simple website created for a first portfolio project for Code institute's diploma in full stack software development. It's designed to inspire candidates to leave earth and live on mars, and convince them to join the program. The site includes information about the Live on Mars space program, with clear objectives and launch dates. For those who wish to come on the mission, there is a sign up form. The site's footer includes contact details and it has a seperate gallery page containing images of previous missions.
 
 ![responsive-design](assets/images-readme/responsive-design.png)
+
+# UX
+
+The 'Live on Mars' website is minimalistic and clean, designed to seemlesly guide the user from the top of the landing page to the sign up section, after being presented with all the necessary information on the way. The user isn't distracted, instead presented with simple information and inspiring imagery.
+
+# UI
+
+The website is designed to create a sense of awe and inspiration for the user. With the theme of the website being 'space', and therefore mere science-fiction to most people, it made sense to use imagery to draw in the user, which is why images can be found throughout the landing page, and a seperate page is dedicated for the gallery. Navigation links will appear full bordered, and the submit button and address link will change colours when hovered over, promoting an interactive experience between the user and the website.
+
+# Design
+
+**Imagery**
+
+All images used for this website were downloaded from [pexels.com](www.pexels.com)
+
+Because I used landscape positioned images for the main image and contact form images, they didn't need too much styling. However for the about section I styled the image to appear round and bordered to make it more aesthetically appealing. 
+
+In the gallery page, as the images were different sizes, I had to shuffle aorund some of the images so that they would fit nicely within the section without leaving large gaps.
+
+**Fonts**
+
+I wanted the fonts to look futuristic to match the theme of the website. For this reason I chose [Jura](https://fonts.google.com/?query=jura) for the logo, with the letters spaced out. [Abel](https://fonts.google.com/?query=abel) was used for the body of the website, as it look similar to Jura, but offers a bit of variety.
+
+As a back up, sans-serif was chosen incase the user's browser would not support my chosen fonts.
+
+**Icons**
+
+I got 2 icons from [Font Awesome](https://fontawesome.com/) to add more visuals to the middle section of the website, which consists of lists and tables. 
+
+**Colours**
+
+The main colours throughout the website are black and white, keeping with theme. White and black also make for a very clear contrast. Lighter tones are used where it was appropriate for styling.
+
+- #343d46 is applied to all the dark text throughout the website. It's slightly more interesting than plain black, while still readable against a white background. This colour is also used to colour the footer, and some rows of the launch information table.
+
+- #fafafa is applied to all the white text throught the website. It works well against the blackness of space, and helps the clean look I'm trying achieve.
 
 # Features
 
@@ -52,5 +86,13 @@ Live on Mars is a simple website designed to inspire those who wish to leave thi
     - The gallery is only page seperate to the home page.
     - It displays images from previous missions, giving the user an idea of what it might be like to join.
      
-
 ![gallery](assets/images-readme/gallery.png)
+
+# Deployment
+This website has been deployed to GitHub using the following steps:
+
+1. Within the Github repository, navigate to the settings tab.
+2. From the source section drop-down menu, select the main branch.
+3. Press save to receive a link to the completed website - [Live on Mars](https://axelzwaans.github.io/live-on-mars/)
+
+
