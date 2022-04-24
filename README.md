@@ -95,4 +95,9 @@ This website has been deployed to GitHub using the following steps:
 2. From the source section drop-down menu, select the main branch.
 3. Press save to receive a link to the completed website - [Live on Mars](https://axelzwaans.github.io/live-on-mars/)
 
+# Testing
+  - This website has been tested using Chrome, Firefox and Safari.
+  - The website is responsive for, aesthetically pleasing
+
+
 
