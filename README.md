@@ -85,6 +85,7 @@ The main colours throughout the website are black and white, keeping with theme.
 ![gallery](assets/images-readme/gallery.png)
 
 # Deployment
+
 This website has been deployed to GitHub using the following steps:
 
 1. Within the Github repository, navigate to the settings tab.
@@ -92,6 +93,7 @@ This website has been deployed to GitHub using the following steps:
 3. Press save to receive a link to the completed website - [Live on Mars](https://axelzwaans.github.io/live-on-mars/)
 
 # Testing
+
 This website has been succesfully tested using Chrome, Firefox and Safari. 
 
 I have also tested the website on various screen sizes for responsiveness, including tablets and phones, to ensure that the media queries achieve the desired result. 
@@ -99,6 +101,7 @@ I have also tested the website on various screen sizes for responsiveness, inclu
 The navigation items direct the user to the requested pages and sections, and data for the 'form' section is downloaded to the server when the submit button is clicked with the text fields filled in.
 
 **Validator Testing**
+   
    - HTML
      - I used [The W3C Markup Validation Service](https://validator.w3.org/) to validate the html. No errors were found.
 
@@ -110,8 +113,6 @@ The navigation items direct the user to the requested pages and sections, and da
 
 ![Lighthouse](assets/images-readme/Lighthouse.png)
 
-
-
 A problem worth mentioning at this point, would be the limitation of the 'float' values, which I used several times in this project. In future projects, I might use the 'flexbox' layout model instead as it allows the developer to arrange items more simply. I found that in this project, floating items make them difficult to visualise, which is especially complicated when working on media queries.
 
 # Credits
@@ -119,10 +120,9 @@ A problem worth mentioning at this point, would be the limitation of the 'float'
 **Content**
 
   - This project is 100% fictional. All information and text displayed written for this project are original.
-  - For coding related questions I used [Stackoverflow](https://stackoverflow.com/)and [w3schools](https://www.w3schools.com/)
-  - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-  - I got 2 icons from [Font Awesome](https://fontawesome.com/) to add more visuals to the middle section of the website
-  - I got the fonts from [Google Fonts](https://fonts.google.com/)
+  - For coding related questions I used [Stackoverflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/)
+  - Icons were taken from [Font Awesome](https://fontawesome.com/)
+  - Fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 
 
