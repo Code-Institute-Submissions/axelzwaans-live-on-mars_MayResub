@@ -294,7 +294,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    margin: 0 auto;
+    margin: 0 400px;
 }
 
 .address {
