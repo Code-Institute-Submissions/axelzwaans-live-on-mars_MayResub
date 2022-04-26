@@ -9,17 +9,17 @@ The 'Live on Mars' website is minimalistic and clean, designed to seemlesly guid
 
 # UI
 
-The website is designed to create a sense of awe and inspiration for the user. With the theme of the website being 'space', and therefore mere science-fiction to most people, it made sense to use imagery to draw in the user, which is why images can be found throughout the landing page, and a seperate page is dedicated for the gallery. Navigation links will appear full bordered, and the submit button and address link will change colours when hovered over, promoting an interactive experience between the user and the website.
+The website is designed to inspire the user. With the theme of the website being 'space', and therefore science-fiction to most people, it made sense to use imagery to draw in the user, which is why images can be found throughout the landing page, and a seperate page is dedicated for the gallery. Navigation links will appear full bordered, and the submit button and address link will change colours when hovered over, promoting an interactive experience.
 
 # Design
 
 **Imagery**
 
-All images used for this website were downloaded from [pexels.com](www.pexels.com)
+All images used for this website were downloaded from [pexels.com](www.pexels.com).
 
-Because I used landscape positioned images for the main image and contact form images, they didn't need too much styling. However for the about section I styled the image to appear round and bordered to make it more aesthetically appealing. 
+Because I used landscape positioned images for the main and contact form images, they didn't need too much styling. However for the 'about' section I styled the image to appear round and bordered to make it more aesthetically appealing. 
 
-In the gallery page, as the images were different sizes, I had to shuffle aorund some of the images so that they would fit nicely within the section without leaving large gaps.
+In the gallery page, as the images were different sizes, I had to shuffle around some of the images so that they would fit nicely within the section without leaving large gaps.
 
 **Fonts**
 
@@ -39,7 +39,7 @@ The main colours throughout the website are black and white, keeping with theme.
 
 * **Header & Navigation**
 
-    - At the top of the page, you'll find the website logo/name in the header. The entire width of the header has been made a navigation link to the home page for simplicity. 
+    - At the top of the page, you'll find the website logo/name in the header. The entire width of the header is a navigation link to the home page for simplicity. 
     - The 3 navigation links are placed within the section below, and appear to be floating in space, focussing attention to the theme related hero image. When hovered over they will display a full white border for futuristic styling.
     - When clicked, the nav links will take the user to the relevant part of the page. The gallery link directs the user to a seperate gallery page. 
     - The nav links are not visible on the gallery page, instead the user simply clicks the header bar to direct them back home.
@@ -48,7 +48,7 @@ The main colours throughout the website are black and white, keeping with theme.
 
 * **Landing page image & cover text**
 
-    - The landing page image combines an epic picture taken from space with an exciting text overlay that draws in the user and hints to scroll down for more information about the website.
+    - The landing page image combines a picture taken from space with an exciting text overlay that draws in the user and hints to scroll down for more information about the website.
     - Similar to the navigation links, the cover text appears to be floating in space, purposefully without any borders or background.
 
 ![hero-image](assets/images-readme/Hero-image.png)
@@ -73,7 +73,7 @@ The main colours throughout the website are black and white, keeping with theme.
     - The footer is divided into 3 sections.
     - To the left of the footer are 3 social media icons, taken from Font Awesome, each which take you to their respective links when clicked, in a seperate tab. 
     - The center of the footer gives the user permission to use the contact information displayed on the right side of the footer.
-    - The right side of the footer contains all contact information the user may need. The address can clicked to provide instant directions via google maps. Clicking the email address will open the user's default mailing app.
+    - The right side of the footer contains all contact information the user may need. The address is clickable to provide instant directions via google maps. Clicking the email address will open the user's default mailing app.
 
 ![footer](assets/images-readme/footer.png)
 
@@ -108,6 +108,12 @@ The navigation items direct the user to the requested pages and sections, and da
    - CSS
      - I used [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS. No errors were found.
 
+   - Responsiveness
+     - I used [Am I Responsive](http://ami.responsivedesign.is/) to validate responsive on different devices.
+
+   - DevTools
+     - I used [Chrome Devtools](https://developer.chrome.com/docs/devtools/) for general code and responsiveness testing.
+
    - Lighthouse
      - I used Lighthouse to check performance & accessibility. Results are displayed below.
 
@@ -120,9 +126,12 @@ A problem worth mentioning at this point, would be the limitation of the 'float'
 **Content**
 
   - This project is 100% fictional. All information and text displayed written for this project are original.
-  - For coding related questions I used [Stackoverflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/)
-  - Icons were taken from [Font Awesome](https://fontawesome.com/)
-  - Fonts were taken from [Google Fonts](https://fonts.google.com/)
+  - For coding related questions I used [Stackoverflow](https://stackoverflow.com/) and [w3schools](https://www.w3schools.com/).
+  - Icons were taken from [Font Awesome](https://fontawesome.com/).
+  - Fonts were taken from [Google Fonts](https://fonts.google.com/).
+
+**Media**
+  - Images were taken from [Pexels](https://www.pexels.com/).
 
 
 
