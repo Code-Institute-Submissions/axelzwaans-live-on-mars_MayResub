@@ -177,7 +177,7 @@ table tbody tr:last-of-type {
 }
 
 #center-cover-bg {
-    background: url(../images/Rocket.png) no-repeat center center;
+    background: url(../images/rocket.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -209,7 +209,7 @@ form h2 {
     content: "";
     background: url(../images/contact.jpg) no-repeat center center;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
@@ -223,10 +223,11 @@ form h2 {
     margin-right: auto;
     text-align: right;
     width: 50%;
-    font-size: 120%;
+    font-size: 140%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    color: black;
 }
 
 .text-input {
