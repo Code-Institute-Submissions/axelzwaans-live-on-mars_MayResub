@@ -119,7 +119,15 @@ The navigation items direct the user to the requested pages and sections, and da
 
 ![Lighthouse](assets/images-readme/lighthouse.png)
 
+# Bugs
+
 A problem worth mentioning at this point would be the limitation of the 'float' values, which I used several times in this project. In future projects, I might use the 'flexbox' layout model instead as it allows the developer to arrange items more simply. I found that in this project, floating items make them difficult to visualise, which is especially complicated when working on media queries.
+
+The 'Join us' navigation item originally was faulty and unreliable. I had used the #bottom with the anchor tag and href attribute to link to that section of the page. This however seems to be a method that is outdated and may not work in current versions of html. I fixed this bug by simply adding a corresponding 'bottom' id to the section I wanted the link to take me.
+
+Some of the text within the 'Join us' section of page initially was difficult to read with the background image behind. I fixed this by changing the text colour to black and decreasing the image opacity to 0.4 to help with the contrast.
+
+I had initially named the files within the repository incorrectly, which I would have spotted had I run the gallery.html file through the W3C validator. I have now renamed the files correctly, which has resulted in zero errors or warning in the gallery.html page. 
 
 # Credits
 
